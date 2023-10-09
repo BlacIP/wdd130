@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(254, 155, 171);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+
+img{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+p.black {
+    color: black;
+    text-align: left;
+    display: inline-block;
+}
+
+p.white {
+    color: white;
+    text-align: center;
+}
+
+h1.white {
+    color: white;
+    text-align: center;
+}
+
+#head {
+    color: black;
+    /*background-color: white;*/
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#head:hover{
+    color: white;
+}
+    
