@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credo</title>
+    <link rel="stylesheet" href="styles/credo.css">
+</head>
+<body>
+    <div class="credo-welcome-page">
+        <h1>Credo</h1>
+        <h2>Welcome back</h2>
+        <p>Enter your credentials to continue with Credo</p>
+      
+        <form action="/login" method="post">
+          <input type="email" name="email" placeholder="Email">
+          <input type="password" name="password" placeholder="Password">
+          <button type="submit">Log in</button>
+        </form>
+      
+        <a href="/create-account">Need a Credo account? Create Account</a>
+        <p class="error-message">Invalid email and password Combination</p>
+      </div>
+</body>
+</html>
