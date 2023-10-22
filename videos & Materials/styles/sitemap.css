@@ -1,0 +1,150 @@
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Homepage */
+  
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .homepage div {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Book Page */
+  
+  .book-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: -50px;
+    left: 120px;
+  }
+  
+  .book-page div {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Author Page */
+  
+  .author-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: -100px;
+    left: 230px;
+  }
+  
+  .author-page div {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Publishing House Page */
+  
+  .publishing-house-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: -150px;
+    left: 340px;
+  }
+  
+  .publishing-house-page div {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Community Page */
+  
+  .community-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: -200px;
+    left: 450px;
+  }
+  
+  .community-page div {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+ /* Homepage to Book Page connection */
+
+.homepage .search-books {
+    position: relative;
+  }
+  
+  .homepage .search-books::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 100px;
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  .homepage .search-books::after:hover {
+    background-color: #000;
+  }
