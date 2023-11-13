@@ -1,0 +1,39 @@
+.post-card {
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .post-card-image {
+    width: 100%;
+  }
+  
+  .post-card-content {
+    padding: 20px;
+  }
+  
+  .post-card-title {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .post-card-excerpt {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  .post-card-meta {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  .post-card-meta li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
