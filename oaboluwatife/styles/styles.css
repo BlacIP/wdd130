@@ -207,7 +207,11 @@ footer div p a{
 }
 .portfolio{
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 1em;
+}
+.blog{
+    display: grid;
+    grid-gap: 1em;
 }
 .bento-blog{
     display: grid;
@@ -222,5 +226,24 @@ footer div p a{
     grid-template-columns: 2fr 2fr;
 }
 .bento-blog section{
-height: 200px;
+height: 250px;
+}
+.resume-grid{
+    display: grid;
+    grid-gap: 1em;
+}
+.resume-block{
+    margin: 30px;
+}
+.resume-block h1{
+    text-align: left;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+.blog-div{
+  display: grid;
+  grid-gap: 30px;
 }

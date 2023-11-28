@@ -10,85 +10,104 @@
 <body>
     <div class="content">
         <header>
-            <a class="logo_link" href="index.html">
-                <img class="logo" src="images/Bolu X logo.png" alt="my logo" style="width: 50px; height: 50px;">
-            </a>
-            <nav>
-                <a href="index.html">Portfolio</a>
-                <a href="blog.html">Blog</a>
-                <a href="resume.html" class="active">Resume/Contact</a>
-            </nav>
+            <div class="nav-bar">
+                <a class="logo-link" href="index.html">
+                    <img class="logo" src="images/Bolu X logo.png" alt="my logo">
+                </a>
+                <nav>
+                    <a href="index.html">Portfolio</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="resume.html" class="active">Resume/Contact</a>
+                </nav>
+            </div>
+            <div class="hero-container">
+                <img class="hero-img" src="images/my_image.jpeg" alt="my-image">
+            </div>
         </header>
-        <div class="hero-container">
-            <img class="hero-img" src="images/software.png" alt="my-image" style="width: 30%; height: 50%;">
-        </div>
-        <main class="home-grid">
-            <div>
-                <Section>
-                    <h1>Resume</h1>
-                    <h3> Name: Omotoyinbo Boluwatife Adebiyi <br>
-                         Position: UI/UX Designer, Web Developer, Graphic Designer <br>
-                         Years: 6years 
-                    </h3>
-                    <p> continue viewing</p>
-                    <a href="https://drive.google.com/file/d/1Z1UYOSO6RHIYzzKP0c-3rNxmjI-66qjF/view?usp=sharing" target="_blank">
-                        <img src="images/Arrow.png" alt="continue" style="width:50px;">
-                    </a>
-                </Section>
-                <Section>
-                    <a href="tel:+234 708 5265 374">
-                        <img src="images/Call-icon.png" alt="my logo">
-                        +234 708 5265 374
-                    </a>
-                    <a href="mailto:omotoyinbobade15@gmail.com">
-                        <img src="images/Mail-to-icon.png" alt="mail-to">
-                        omotoyinbobade15@gmail.com
-                    </a>
-                </Section>
+        <main class="resume-grid">
+            <div class="resume-block">
+                <div>
+                    <Section>
+                        <h1>Resume</h1>
+                        <h3> Name: Omotoyinbo Boluwatife Adebiyi <br>
+                             Position: UI/UX Designer, Web Developer, Graphic Designer <br>
+                             Years: 6years 
+                        </h3>
+                        <!-- <p> continue viewing</p> -->
+                        <a href="https://drive.google.com/file/d/1Z1UYOSO6RHIYzzKP0c-3rNxmjI-66qjF/view?usp=sharing" target="_blank">
+                            continue viewing<img src="images/Arrow.png" alt="continue" style="width:50px;">
+                        </a>
+                    </Section>
+                    <Section>
+                        <a href="tel:+234 708 5265 374">
+                            <img src="images/Call-icon.png" alt="my logo">
+                            +234 708 5265 374
+                        </a>
+                        <a href="mailto:omotoyinbobade15@gmail.com">
+                            <img src="images/Mail-to-icon.png" alt="mail-to">
+                            omotoyinbobade15@gmail.com
+                        </a>
+                    </Section>
+                </div>
             </div>
-            <div>
+            <div class="blog">
                 <h1>More from My Thoughts</h1>
-                <section class="rivers-card">
-                    <img class="card-img" src="images/case-study.webp" alt="river in forest" style="width: 30%; height: 50%;">
-                    <h3>Blog Post Title</h3>
-                    <p> Description, Description, Description, Descrp....</p>
-                    <a href="blog-post1.hmtml">
-                        <img src="images/Arrow.png" alt="continue" style="width:50px;">
-                    </a>
+                <section class="bento-blog">
+                    <div class="card-img-block">
+                        <img class="card-img" src="images/ui_ux.webp" alt="river in forest">
+                    </div>
+                    <section>
+                        <div class="bento-text">
+                            <h3>Blog Post Title</h2>
+                                <p> Description, Description, Description, Description, Description, Description, Description, 
+                                    Description, Description, Description, Description, Description, Description, Description, 
+                                    Description, Description, Description, Description, Description, Description, Description, Descrp.....</p>
+                            <a href="https://drive.google.com/drive/folders/1-3dQWqYuToPjhuQOYSWT0TdM_olwFceK?usp=sharing" target="_blank"> continue
+                                <img src="images/Arrow.png" alt="continue">
+                            </a>
+                        </div>
+                    </section>
                 </section>
             </div>
-            <div>
+            <div class="portfolio">
                 <h1> More From Portfolio</h1>
-                <section class="bento-card">
-                    <div class="card-img-block">
-                        <img class="card-img" src="images/software.png" alt="river in forest">
-                    </div>
-                    <div class="bento-text">
-                        <h3>Project Name</h2>
-                            <p> Description, Description, Description, Description, Description, 
-                                Description, Description, Description, Description, Description, Description, Descrp....</p>
-                        <a href="project1.hmtml"> continue
-                            <img src="images/Arrow.png" alt="continue">
-                        </a>
-                    </div>
-                </section>
-                <section class="bento-card">
-                    <div class="card-img-block">
-                        <img class="card-img" src="images/software.png" alt="river in forest">
-                    </div>
-                    <div class="bento-text">
-                        <h3>Project Name</h2>
-                            <p> Description, Description, Description, Description, Description, 
-                                Description, Description, Description, Description, Description, Description, Descrp....</p>
-                        <a href="project1.hmtml"> continue
-                            <img src="images/Arrow.png" alt="continue">
-                        </a>
-                    </div>
-                </section>
+                <div class="home-grid">
+                    <section class="bento-card">
+                        <div class="card-img-block">
+                            <img class="card-img" src="images/software.png" alt="river in forest">
+                        </div>
+                        <div class="bento-text">
+                            <h3>Project Name</h2>
+                                <p> Description, Description, Description, Description, Description, 
+                                    Description, Description, Description, Description, Description, Description, Descrp....</p>
+                            <a href="project1.hmtml"> continue
+                                <img src="images/Arrow.png" alt="continue">
+                            </a>
+                        </div>
+                    </section>
+                    <section class="bento-card">
+                        <div class="card-img-block">
+                            <img class="card-img" src="images/software.png" alt="river in forest">
+                        </div>
+                        <div class="bento-text">
+                            <h3>Project Name</h2>
+                                <p> Description, Description, Description, Description, Description, 
+                                    Description, Description, Description, Description, Description, Description, Descrp....</p>
+                            <a href="project1.hmtml"> continue
+                                <img src="images/Arrow.png" alt="continue">
+                            </a>
+                        </div>
+                    </section>
+                </div>
             </div>
         </main>
         <footer>
             <p> &copy; 2023 - Boluwatife A. Omotoyinbo</p>
+            <div>
+            <p><a href="index.html">Portfolio</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="resume.html">Resume/Contact</a>
+            </div>
         </footer>
     </div>
 </body>
