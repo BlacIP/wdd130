@@ -15,7 +15,7 @@ header{
     grid-template-columns: 1fr 1fr 2fr;
     /* justify-items: center; */
     border-radius: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .hero-container{
     /* width: 100%; */
@@ -80,7 +80,7 @@ body {
     margin: 0;
     
 }
-body img{
+/* body img{
     width: 100%;
     height: 100%;
     position: relative;
@@ -92,22 +92,50 @@ body img{
     z-index: -1; 
     width: 100%; 
     height: 300vh;
-}
+} */
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    width: 100%;
+}
+.about-me{
+    height: 270px;
+    background-color: #EEF0F2;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+}
+.about-me p{
+    color: #1C1C1C;
+    font-size: 18px;
+    margin: 10px;
+    text-align: justify;
+    font-weight: 300;
+    overflow-wrap: break-word;
+}
+span{
+    /* font-size: 2em; */
+    font-weight: bold;
+    /* float: left; */
+    /* margin: 0%; */
+    /* line-height: 0.8; */
+    /* margin-right: 0.1em;  */
 }
 .bento-card{
     display: grid;
     grid-gap: 10px;
     background-color: #EEF0F2;
     border-radius: 20px;
-    margin: 20px;
+    /* margin: 20px; */
     height: 500px;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
+    grid-template-rows: 2fr 1fr;
 }
 .bento-card:hover{
     transform: rotate(1deg);
@@ -121,6 +149,7 @@ body img{
     width: 100%;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    height: 100%;
 }
 .card-img:hover{
     transform: scale(1.1);
@@ -142,9 +171,14 @@ body img{
 }
 .bento-text{
     color: #1C1C1C;
+    height: auto;
 }
 .bento-text p{
     font-weight: 100;
+    margin: 10px 0px;
+}
+.bento-text h3{
+    margin: 0;
 }
 footer{
     color: #1C1C1C;
@@ -165,4 +199,28 @@ footer div p a{
     /* background-color: #EEF0F2;
     margin: 10px 10px;
     border-radius: 5px; */
+}
+.blog-grid{
+    display: grid;
+    grid-gap: 2em;
+    width: 100%;
+}
+.portfolio{
+    display: grid;
+    grid-gap: 2em;
+}
+.bento-blog{
+    display: grid;
+    grid-gap: 15px;
+    background-color: #EEF0F2;
+    border-radius: 20px;
+    /* margin: 20px; */
+    height: 300px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out; 
+    overflow: hidden;
+    grid-template-columns: 2fr 2fr;
+}
+.bento-blog section{
+height: 200px;
 }
