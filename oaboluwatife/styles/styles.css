@@ -24,6 +24,7 @@ header{
     /* margin: 100px; */
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    /* overflow: hidden; */
 }
 .hero-container:hover{
     transform: rotate(1deg);
@@ -31,7 +32,11 @@ header{
 .hero-img{
     width: 100%;
     border-radius: 20px;
+    /* overflow: hidden; */
 }
+/* .hero-img:hover{
+    transform: scale(1.03);
+} */
 .nav-bar{
     display: grid;
     grid-template-rows: 120px auto;
@@ -68,7 +73,7 @@ nav a.active{
     color: #1C1C1C;
 }
 body {
-    background-color: #adacac; 
+    background-color: #DADDD8; 
     font-family: outfit;
     font-size: 22px;
     padding: 0;
@@ -102,6 +107,7 @@ body img{
     height: 500px;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
+    overflow: hidden;
 }
 .bento-card:hover{
     transform: rotate(1deg);
@@ -109,10 +115,15 @@ body img{
 .card-img-block{
     width: 100%;
     border-radius: 10px;
+    overflow: hidden;
 }
 .card-img{
     width: 100%;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card-img:hover{
+    transform: scale(1.1);
 }
 .bento-text a img {
     width: 20%;
