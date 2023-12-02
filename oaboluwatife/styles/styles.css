@@ -3,28 +3,38 @@
 .content{
     max-width: 1000px;
     margin: 100px auto;
-    /* padding: 200px; */
-    /* border: 1px solid rgb(46, 45, 45); */
     padding: 50px;
     background-color: #ECEBE4;
     border-radius: 20px;
+    height:2250px
+}
+.content-resume{
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: #ECEBE4;
+    border-radius: 20px;
+    height:2300px
+}
+.content-blog{
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: #ECEBE4;
+    border-radius: 20px;
+    height:2450px
 }
 header{
-    /* width: 100%; */
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    /* justify-items: center; */
     border-radius: 20px;
     margin-bottom: 50px;
 }
 .hero-container{
-    /* width: 100%; */
     grid-column: 3/4;
     grid-row: 1/5;
-    /* margin: 100px; */
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
-    /* overflow: hidden; */
 }
 .hero-container:hover{
     transform: rotate(1deg);
@@ -32,11 +42,7 @@ header{
 .hero-img{
     width: 100%;
     border-radius: 20px;
-    /* overflow: hidden; */
 }
-/* .hero-img:hover{
-    transform: scale(1.03);
-} */
 .nav-bar{
     display: grid;
     grid-template-rows: 120px auto;
@@ -80,19 +86,6 @@ body {
     margin: 0;
     
 }
-/* body img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.background-gif{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; 
-    width: 100%; 
-    height: 300vh;
-} */
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -118,19 +111,13 @@ body {
     overflow-wrap: break-word;
 }
 span{
-    /* font-size: 2em; */
     font-weight: bold;
-    /* float: left; */
-    /* margin: 0%; */
-    /* line-height: 0.8; */
-    /* margin-right: 0.1em;  */
 }
 .bento-card{
     display: grid;
     grid-gap: 10px;
     background-color: #EEF0F2;
     border-radius: 20px;
-    /* margin: 20px; */
     height: 500px;
     padding: 20px;
     transition: transform 0.3s ease-in-out;
@@ -196,14 +183,10 @@ footer div p a{
     padding: 10px 10px;
     text-decoration: none;
     color: #1C1C1C;
-    /* background-color: #EEF0F2;
-    margin: 10px 10px;
-    border-radius: 5px; */
     font-size: 15px;
 }
 .blog-grid{
     display: grid;
-    /* grid-gap: 1em; */
     width: 100%;
 }
 .blog-intro{
@@ -302,10 +285,31 @@ h1{
     overflow-wrap: break-word;
 }
 .blog-intro p span{
-    /* font-size: 2em; */
     font-weight: bold;
-    /* float: left; */
-    /* margin: 0%; */
-    /* line-height: 0.8; */
-    /* margin-right: 0.1em;  */
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader img {
+    width: 90px;
+    height: 90px;
 }
