@@ -55,40 +55,70 @@
                         </a>
                     </Section>
                 </div>
+                <div class="contact-form">
+
+                    <h3>Contact Form</h3>
+                    
+                    <div class="container">
+                        <form action="/action_page.php">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                            
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" name="email" placeholder="Your email..">
+                                
+                            <label for="contact">Phone Number</label>
+                            <input type="text" id="contact" name="contact" placeholder="Your Phone Number..">
+                            
+                            <label for="c-reason">Reason for Contact</label>
+                            <select id="c-reason" name="c-reason">
+                                <option value="graphic">Graphic Design</option>
+                                <option value="product">UI/UX</option>
+                                <option value="web">Webd Development</option>
+                                <option value="print">Printing</option>
+                            </select>
+                            
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
+                            
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
                 <div class="blog">
-                    <h1>More from My Thoughts</h1>
-                    <section class="bento-blog">
-                        <div class="card-img-block">
-                            <img class="card-img" src="images/ui_ux.webp" alt="river in forest">
-                        </div>
-                        <section>
-                            <div class="bento-text">
-                                <h3>Blog Post Title</h2>
-                                    <p> Description, Description, Description, Description, Description, Description, Description, 
-                                        Description, Description, Description, Description, Description, Description, Description, 
-                                        Description, Description, Description, Description, Description, Description, Description, Descrp.....</p>
-                                <a href="https://drive.google.com/drive/folders/1-3dQWqYuToPjhuQOYSWT0TdM_olwFceK?usp=sharing" target="_blank"> continue
-                                    <img src="images/Arrow.png" alt="continue">
-                                </a>
+                        <h1>More from My Thoughts</h1>
+                        <section class="bento-blog">
+                            <div class="card-img-block">
+                                <img class="card-img" src="images/ui_ux.webp" alt="river in forest">
                             </div>
+                            <section>
+                                <div class="bento-text">
+                                    <h3>Blog Post Title</h2>
+                                        <p> Description, Description, Description, Description, Description, Description, Description, 
+                                            Description, Description, Description, Description, Description, Description, Description, 
+                                            Description, Description, Description, Description, Description, Description, Description, Descrp.....</p>
+                                    <a href="https://drive.google.com/drive/folders/1-3dQWqYuToPjhuQOYSWT0TdM_olwFceK?usp=sharing" target="_blank"> continue
+                                        <img src="images/Arrow.png" alt="continue">
+                                    </a>
+                                </div>
+                            </section>
                         </section>
-                    </section>
                 </div>
                 <div class="portfolio">
                     <h1> More From Portfolio</h1>
                     <div class="home-grid">
                         <section class="bento-card">
-                            <div class="card-img-block">
-                                <img class="card-img" src="images/software.png" alt="river in forest">
-                            </div>
-                            <div class="bento-text">
-                                <h3>Project Name</h2>
-                                    <p> Description, Description, Description, Description, Description, 
-                                        Description, Description, Description, Description, Description, Description, Descrp....</p>
-                                <a href="project1.hmtml"> continue
-                                    <img src="images/Arrow.png" alt="continue">
-                                </a>
-                            </div>
+                                <div class="card-img-block">
+                                    <img class="card-img" src="images/software.png" alt="river in forest">
+                                </div>
+                                <div class="bento-text">
+                                    <h3>Project Name</h2>
+                                        <p> Description, Description, Description, Description, Description, 
+                                            Description, Description, Description, Description, Description, Description, Descrp....</p>
+                                    <a href="project1.hmtml"> continue
+                                        <img src="images/Arrow.png" alt="continue">
+                                    </a>
+                                </div>
                         </section>
                         <section class="bento-card">
                             <div class="card-img-block">
@@ -96,8 +126,8 @@
                             </div>
                             <div class="bento-text">
                                 <h3>Project Name</h2>
-                                    <p> Description, Description, Description, Description, Description, 
-                                        Description, Description, Description, Description, Description, Description, Descrp....</p>
+                                <p> Description, Description, Description, Description, Description, 
+                                Description, Description, Description, Description, Description, Description, Descrp....</p>
                                 <a href="project1.hmtml"> continue
                                     <img src="images/Arrow.png" alt="continue">
                                 </a>
@@ -107,7 +137,7 @@
                 </div>
             </main>
             <footer>
-                <p> &copy; 2023 - Boluwatife A. Omotoyinbo</p>
+                 <p> &copy; 2023 - Boluwatife A. Omotoyinbo</p>
                 <div>
                     <p><a href="site-plan.html"> Site Plan</a></p>
                     <p><a href="index.html">Portfolio</a></p>
@@ -118,31 +148,31 @@
         </div>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    var loader = document.querySelector('.loader');
-    var content = document.querySelector('.main-content');
+                document.addEventListener("DOMContentLoaded", function() {
+            var loader = document.querySelector('.loader');
+            var content = document.querySelector('.main-content');
 
-    // Hide the loader and show content when the page is fully loaded
-    loader.style.display = 'none';
-    content.style.display = 'block';
+            // Hide the loader and show content when the page is fully loaded
+            loader.style.display = 'none';
+            content.style.display = 'block';
 
-    // Function to show the loader and hide the content
-    function showLoader() {
-        console.log("Show loader called"); // Debugging line
-        loader.style.display = 'flex';
-        content.style.display = 'none';
-    }
+            // Function to show the loader and hide the content
+            function showLoader() {
+                console.log("Show loader called"); // Debugging line
+                loader.style.display = 'flex';
+                content.style.display = 'none';
+            }
 
-    // Attach showLoader to link click events in both navigation and footer
-    var links = document.querySelectorAll('nav a, footer a');
-    console.log("Total links found: ", links.length); // Debugging line
+            // Attach showLoader to link click events in both navigation and footer
+            var links = document.querySelectorAll('nav a, footer a');
+            console.log("Total links found: ", links.length); // Debugging line
 
-    links.forEach(function(link) {
-        link.addEventListener('click', function() {
-            showLoader();
+            links.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    showLoader();
+                });
+            });
         });
-    });
-});
 </script>
 </body>
 </html>

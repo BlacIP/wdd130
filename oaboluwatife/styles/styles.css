@@ -6,7 +6,7 @@
     padding: 50px;
     background-color: #ECEBE4;
     border-radius: 20px;
-    height:2250px
+    height:2200px
 }
 .content-resume{
     max-width: 1000px;
@@ -14,7 +14,7 @@
     padding: 50px;
     background-color: #ECEBE4;
     border-radius: 20px;
-    height:2300px
+    height:2850px
 }
 .content-blog{
     max-width: 1000px;
@@ -22,7 +22,7 @@
     padding: 50px;
     background-color: #ECEBE4;
     border-radius: 20px;
-    height:2450px
+    height:2350px
 }
 header{
     display: grid;
@@ -93,7 +93,7 @@ body {
     width: 100%;
 }
 .about-me{
-    height: 270px;
+    height: 320px;
     background-color: #EEF0F2;
     margin-bottom: 50px;
     border-radius: 20px;
@@ -116,7 +116,7 @@ span{
 .bento-card{
     display: grid;
     grid-gap: 10px;
-    background-color: #EEF0F2;
+    background-color: #DADDD8;
     border-radius: 20px;
     height: 500px;
     padding: 20px;
@@ -190,8 +190,8 @@ footer div p a{
     width: 100%;
 }
 .blog-intro{
-    height: 270px;
-    background-color: #EEF0F2;
+    height: 320px;
+    background-color: #DADDD8;
     margin-bottom: 30px;
     border-radius: 20px;
     padding: 20px;
@@ -222,7 +222,7 @@ footer div p a{
 .bento-blog{
     display: grid;
     grid-gap: 15px;
-    background-color: #EEF0F2;
+    background-color: #DADDD8;
     border-radius: 20px;
     /* margin: 20px; */
     height: 300px;
@@ -266,7 +266,7 @@ h1{
   display: grid;
   grid-gap: 30px;
 }
-.blog-intro{
+/* .blog-intro{
     height: 270px;
     background-color: #EEF0F2;
     margin-bottom: 30px;
@@ -286,7 +286,7 @@ h1{
 }
 .blog-intro p span{
     font-weight: bold;
-}
+} */
 
 .loader {
     display: flex;
@@ -312,4 +312,40 @@ h1{
 .loader img {
     width: 90px;
     height: 90px;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #DADDD8;
+  padding: 20px;
+  font-size: 18px;
+}
+.contact-form h3{
+    margin: 0;
+    margin-bottom: 10px;
 }
